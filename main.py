@@ -1,6 +1,6 @@
 from fastapi import Request, FastAPI
 from pydantic import BaseModel
-from app import computeTextSimilarity
+from functions import computeTextSimilarity
 app = FastAPI()
 
 
