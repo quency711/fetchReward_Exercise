@@ -24,15 +24,15 @@ The objective of this project is to write a program that takes as inputs two tex
 
 ## Answers 
 1. Do you count punctuation or only words?
-> No, the punctuations are excluded. 
+> The punctuations are excluded. 
 2. Which words should matter in the similarity comparison?
-> All the words exclude stopwords are important.  
+> All the words excluding stopwords are important.  
 3. Do you care about the ordering of words?
 > Yes, the ordering is important in this model. 
 4. What metric do you use to assign a numerical value to the similarity?
-> The function calculated the cosine distance between two texts. 
+> The function calculated the cosine similarity between two texts. 
 5. What type of data structures should be used? (Hint: Dictionaries and lists are particularly helpful data structures that can be leveraged to calculate the similarity of two pieces of text.)
-> Dictionaries are primarily used. I used dictionary to get verctor values of the text after converting it to n-gram bag.  
+> Dictionaries are primarily used. I used dictionary to get verctor values of the text after getting 2-grams of texts.   
 
 ## How to run it
 ### Run the application through Docker
