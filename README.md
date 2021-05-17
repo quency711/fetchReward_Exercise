@@ -6,21 +6,33 @@ The objective of this project is to write a program that takes as inputs two tex
 ## Files
 
 ```
-├── README.md
 ├── Dockerfile
-├── stopwords.txt
+├── README.md 
 ├── functions.py
 ├── main.py
-└── requirements.txt
+├── requirements.txt 
+└── stopwords.txt
 ```
 
 ## What each file represents 
 
 1. Dockerfile : used to build docker image
-2. stopwords.txt : used to remove stopwords in the sentences, the function provides the option to remove stopwords or not 
+2. stopwords.txt : used to remove the stopwords in the sentences, the function provides the option to use stopwords or not 
 3. functions.py - functions used to calculate similarity between two texts
 4. main.py - used to run fastapi
 6. requirements.txt - contains required packges for model and application
+
+## Answers 
+1. Do you count punctuation or only words?
+   No, the punctuations are excluded. 
+2. Which words should matter in the similarity comparison?
+   All the words exclude stopwords are important.  
+3. Do you care about the ordering of words?
+  Yes, the ordering is important in this model. 
+4. What metric do you use to assign a numerical value to the similarity?
+  The function calculated the cosine distance between two texts. 
+5. What type of data structures should be used? (Hint: Dictionaries and lists are particularly helpful data structures that can be leveraged to calculate the similarity of two pieces of text.)
+   Dictionaries are primarily used. I used dictionary to get verctor values of the text after converting it to n-gram bag.  
 
 ## How to run it
 ### Run the application through Docker
