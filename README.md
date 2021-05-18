@@ -38,8 +38,9 @@ The objective of this project is to write a program that takes as inputs two tex
 ### Run the application through Docker
 
 1. ```git clone https://github.com/quency711/fetchReward_Exercise.git```
-2. ```docker build -t myimage .  ```
-3. ```docker run -d --name fetchReward -p 80:80 myimage  ```  
+2. ```cd fetchReward_Exercise```
+3. ```docker build -t myimage .  ```
+4. ```docker run -d --name fetchReward_task -p 80:80 myimage  ```  
 
 ### Test with the Application
 
