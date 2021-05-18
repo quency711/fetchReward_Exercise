@@ -42,7 +42,12 @@ The objective of this project is to write a program that takes as inputs two tex
 3. ```docker build -t myimage .  ```
 4. ```docker run -d --name fetchReward_task -p 80:80 myimage  ```  
 
+
+
 ### Test with the Application
+
+Interactive API docs
+Now you can go to http://127.0.0.1/docs to test API.
 
 ```
 curl -X 'POST' \
