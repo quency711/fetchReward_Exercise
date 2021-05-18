@@ -59,6 +59,5 @@ curl -X 'POST' \
 ### Resources
 
 1. Docker base image: https://hub.docker.com/r/tiangolo/uvicorn-gunicorn-fastapi/dockerfile
-
-
+2. Docker and FastAPI information: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
 
