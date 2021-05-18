@@ -44,7 +44,7 @@ The objective of this project is to write a program that takes as inputs two tex
 
 ### Test with the Application
 
-`
+```
 curl -X 'POST' \
   'http://127.0.0.1/' \
   -H 'accept: application/json' \
@@ -54,8 +54,7 @@ curl -X 'POST' \
   "text2": "The easiest way to earn points with Fetch Rewards is to just shop for the items you already buy. If you have any eligible brands on your receipt, you will get points based on the total cost of the products. You do not need to cut out any coupons or scan individual UPCs. Just scan your receipt after you check out and we will find the savings for you."
 }'
 
-
-`
+```
 
 ### Resources
 
